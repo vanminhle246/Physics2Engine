@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chipmunk2EngineFallingBall", "tutorial1.vcproj", "{9C03BFB7-36D4-4ACC-912C-8CC2E1B79552}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChipmunkHelloWorld", "..\ChipmunkHelloWorld\ChipmunkHelloWorld.vcproj", "{6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,10 +13,6 @@ Global
 		{9C03BFB7-36D4-4ACC-912C-8CC2E1B79552}.Debug|Win32.Build.0 = Debug|Win32
 		{9C03BFB7-36D4-4ACC-912C-8CC2E1B79552}.Release|Win32.ActiveCfg = Release|Win32
 		{9C03BFB7-36D4-4ACC-912C-8CC2E1B79552}.Release|Win32.Build.0 = Release|Win32
-		{6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D}.Debug|Win32.Build.0 = Debug|Win32
-		{6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D}.Release|Win32.ActiveCfg = Release|Win32
-		{6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
