@@ -14,4 +14,5 @@ public:
 	LinkerAgent(DJ2DSprite* pSprite, cpSpace* pSpace, cpBody* pBody);
 	void UpdateFromEngine();
 	void UpdateFromChipmunk();
+	
 };

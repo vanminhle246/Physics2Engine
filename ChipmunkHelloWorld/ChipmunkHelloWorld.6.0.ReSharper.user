@@ -1,0 +1,28 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D/f:ChipmunkHelloWorld.cpp" caret="1994" fromTop="35" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6AC6D74F-536E-46F3-AB3A-F7FC0A3F5A0D/f:ChipmunkHelloWorld.cpp" caret="2134" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

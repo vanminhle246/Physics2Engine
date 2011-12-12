@@ -1,0 +1,38 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:LinkerAgent.h" caret="0" fromTop="0" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:LinkerAgent.cpp" caret="814" fromTop="21" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.h" caret="0" fromTop="0" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="9243" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="12458" fromTop="10" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="9540" fromTop="22" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="8725" fromTop="8" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="8724" fromTop="7" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="8555" fromTop="5" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="10743" fromTop="9" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="9383" fromTop="14" />
+      <File id="9C03BFB7-36D4-4ACC-912C-8CC2E1B79552/f:tutorial1app.cpp" caret="11390" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
