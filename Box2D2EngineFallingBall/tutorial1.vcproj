@@ -66,7 +66,7 @@
 				AdditionalDependencies="djengine_d.lib gles2render_d.lib djos_d.lib djopenalsound_d.lib chipmunk_d.lib tinyxml_d.lib Box2D.lib"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="&quot;$(DJ_ENGINE)/lib/win32/vs2008&quot;;../Box2D_v2.2.1/lib"
-				IgnoreDefaultLibraryNames=""
+				IgnoreDefaultLibraryNames="MSVCRT.lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
@@ -121,7 +121,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories="$(DJ_ENGINE)/include;$(DJ_ENGINE)/include/osal;$(DJ_ENGINE)/externals/chipmunk-physics/include/chipmunk;$(DJ_ENGINE)/externals/tinyxml"
+				AdditionalIncludeDirectories="&quot;$(DJ_ENGINE)/include&quot;;&quot;$(DJ_ENGINE)/include/osal&quot;;&quot;$(DJ_ENGINE)/externals/chipmunk-physics/include/chipmunk&quot;;&quot;$(DJ_ENGINE)/externals/tinyxml&quot;;../Box2D_v2.2.1/include"
 				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;__DJ__;_DJWINDOWS;_DJ;_FINALVER"
 				MinimalRebuild="true"
 				RuntimeLibrary="0"
@@ -141,9 +141,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="djengine.lib gles2render.lib djos.lib djopenalsound.lib chipmunk.lib tinyxml.lib"
+				AdditionalDependencies="djengine_d.lib gles2render_d.lib djos_d.lib djopenalsound_d.lib chipmunk_d.lib tinyxml_d.lib Box2D.lib"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="../../lib/win32/vs2008"
+				AdditionalLibraryDirectories="&quot;$(DJ_ENGINE)/lib/win32/vs2008&quot;;../Box2D_v2.2.1/lib"
+				IgnoreDefaultLibraryNames="MSVCRT.lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
@@ -183,7 +184,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\HybridEntity.cpp"
+				RelativePath=".\sourcecode\LinkerAgent.cpp"
 				>
 			</File>
 			<File
@@ -196,7 +197,7 @@
 			Filter="h;hpp"
 			>
 			<File
-				RelativePath=".\HybridEntity.h"
+				RelativePath=".\sourcecode\LinkerAgent.h"
 				>
 			</File>
 			<File

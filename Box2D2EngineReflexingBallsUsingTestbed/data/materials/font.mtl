@@ -1,0 +1,29 @@
+Material
+{
+	TextureSampler T1
+	{
+		Texture 		"textures/font.tga"
+		AddressU		CLAMP
+		AddressV		CLAMP
+		MinFilter		LINEAR
+		MagFilter		LINEAR
+		MipFilter		NEAREST
+		Stage			0
+	}
+	
+	Mode "default"
+	{
+		Shader 	"font"
+		
+		Blend		SRC_ALPHA	INV_SRC_ALPHA
+		Flags		NOZWRITE NOZCOMPARE DOUBLESIDED
+		
+		Attribute	VEC3			POSITION 	"pos_attr"
+		Attribute	VEC4 			COLOR		"col_attr"
+		Attribute	VEC2			UV 			"uv_attr"
+
+		Uniform	MAT44				TOTAL_TRANSFORM		"g_mTransform"
+		Uniform	VEC4				MOD_COLOR			"g_modcol"
+		Global	TEXTURE				T1					"g_texture"
+	}
+}

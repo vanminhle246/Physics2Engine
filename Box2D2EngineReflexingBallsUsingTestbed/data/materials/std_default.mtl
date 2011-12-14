@@ -1,0 +1,13 @@
+Material
+{
+	Mode "default"
+	{
+		Shader 	"std"
+		
+		Attribute	VEC3	POSITION 	"pos_attr"
+		Attribute	VEC4 	COLOR		"col_attr"
+
+		Uniform		MAT44	TOTAL_TRANSFORM	"g_mTransform"
+		Global		VEC4	MOD_COLOR	"g_modcol"
+	}
+}
