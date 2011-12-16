@@ -9,11 +9,12 @@ class LinkerAgent
 {
 public:
 	DJ2DSprite*	m_pSprite;
-	b2World* m_pWorld;
 	b2Body* m_pBody;
+	djbool	m_isSeed;
 	LinkerAgent(void);
 	~LinkerAgent(void);
-	LinkerAgent(DJ2DSprite* pSprite, b2World* pWorld, b2Body* pBody);
+	LinkerAgent(DJ2DSprite* pSprite, b2Body* pBody);
 	void UpdateFromEngine();
 	void UpdateFromBox2D();
+	LinkerAgent(DJ2DSprite* pSprite, b2Body* pBody, djbool isSeed);
 };

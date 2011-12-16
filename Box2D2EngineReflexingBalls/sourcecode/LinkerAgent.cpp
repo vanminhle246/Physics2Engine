@@ -7,11 +7,12 @@ LinkerAgent::LinkerAgent(void)
 LinkerAgent::~LinkerAgent(void)
 {
 }
-LinkerAgent::LinkerAgent(DJ2DSprite* pSprite, b2World* pWorld, b2Body* pBody)
+LinkerAgent::LinkerAgent(DJ2DSprite* pSprite, b2Body* pBody)
 {
 	m_pSprite = pSprite;
-	m_pWorld = pWorld;
 	m_pBody = pBody;
+	m_isSeed = DJFALSE;
+	m_pBody->SetUserData(this);
 }
 void LinkerAgent::UpdateFromEngine()
 {
@@ -24,4 +25,11 @@ void LinkerAgent::UpdateFromBox2D()
 	b2Vec2 b2dPosition = m_pBody->GetPosition();
 	m_pSprite->SetPosition(b2dPosition.x, -b2dPosition.y);
 	m_pSprite->SetRotation(-m_pBody->GetAngle());
+}
+LinkerAgent::LinkerAgent(DJ2DSprite* pSprite, b2Body* pBody, djbool isSeed)
+{
+	m_pSprite = pSprite;
+	m_pBody = pBody;
+	m_isSeed = isSeed;
+	m_pBody->SetUserData(this);
 }

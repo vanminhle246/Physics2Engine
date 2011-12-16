@@ -184,11 +184,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\sourcecode\B2DJQueryCallback.cpp"
+				RelativePath=".\sourcecode\B2DjSimulator.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\sourcecode\LinkerAgent.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\sourcecode\MyContactListener.cpp"
 				>
 			</File>
 			<File
@@ -201,11 +205,15 @@
 			Filter="h;hpp"
 			>
 			<File
-				RelativePath=".\sourcecode\B2DJQueryCallback.h"
+				RelativePath=".\sourcecode\B2DjSimulator.h"
 				>
 			</File>
 			<File
 				RelativePath=".\sourcecode\LinkerAgent.h"
+				>
+			</File>
+			<File
+				RelativePath=".\sourcecode\MyContactListener.h"
 				>
 			</File>
 			<File
