@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Box2D2EngineReflexingBallsUsingTestbed", "tutorial1.vcproj", "{9C03BFB7-36D4-4ACC-912C-8CC2E1B79552}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Box2D2EngineCanonBall", "tutorial1.vcproj", "{9C03BFB7-36D4-4ACC-912C-8CC2E1B79552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
